@@ -3,11 +3,11 @@ const countEl = document.getElementById('count');
 updateVisitCount();
 
 function updateVisitCount() {
-    fetch('https://api.countapi.xyz/hit/fileCUsersshuklDesktopProjectTestindex.html/visits?callback=cb')
-        .then(res => res.json())
-        .then(res => {
-            countEl.innerHTML = res.value;
-        })
+	fetch('https://api.countapi.xyz/hit/api.countapi.xyzupdatehttpsprojecttest12.netlify.ap/visits?callback=cb')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
 }
 
 
@@ -28,9 +28,9 @@ const close_btn = document.querySelector('.close-btn');
 const social_panel_container = document.querySelector('.social-panel-container');
 
 floating_btn.addEventListener('click', () => {
-    social_panel_container.classList.toggle('visible')
+	social_panel_container.classList.toggle('visible')
 });
 
 close_btn.addEventListener('click', () => {
-    social_panel_container.classList.remove('visible')
+	social_panel_container.classList.remove('visible')
 });
